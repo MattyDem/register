@@ -25,5 +25,5 @@ btn.addEventListener("click", () => {
     time: Date.now()
   });
 
-  alert("Button pressed!");
+  alert("Registered!");
 });
