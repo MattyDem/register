@@ -1,0 +1,38 @@
+/* Center everything on screen */
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+#title {
+  font-size: 6rem;
+  margin-bottom: 40px;
+  font-weight: bold;
+}
+
+/* Big round button */
+#btnReg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: none;
+  background: #000;       /* black circle */
+  color: white;
+  font-size: 5rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+/* Nice pressing animation */
+#btnReg:active {
+  transform: scale(0.92);
+  background: #333;
+}
